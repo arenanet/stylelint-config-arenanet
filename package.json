@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-arenanet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ArenaNet's stylelint configuration",
   "main": "index.js",
   "repository": "arenanet/stylelint-config-arenanet",

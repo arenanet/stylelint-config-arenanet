@@ -1,0 +1,31 @@
+{
+  "name": "stylelint-config-arenanet",
+  "version": "1.0.0",
+  "description": "ArenaNet's stylelint configuration",
+  "main": "index.js",
+  "repository": "arenanet/stylelint-config-arenanet",
+  "keywords": [
+    "stylelint-config",
+    "arenanet"
+  ],
+  "author": "Patrick Cavit <github@patcavit.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arenanet/stylelint-config-arenanet/issues"
+  },
+  "homepage": "https://github.com/arenanet/stylelint-config-arenanet#readme",
+  "dependencies": {
+    "stylelint-config-standard": "^15.0.1"
+  },
+  "devDependencies": {
+    "@studio/changes": "^1.1.0",
+    "husky": "^0.12.0",
+    "validate-commit-msg": "^2.8.2"
+  },
+  "scripts": {
+    "commitmsg": "validate-commit-msg",
+    "preview": "changes || true",
+    "version": "changes",
+    "postversion": "git push --follow-tags"
+  }
+}

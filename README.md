@@ -1,5 +1,7 @@
 stylelint-config-arenanet [![NPM Version](https://img.shields.io/npm/v/stylelint-config-arenanet.svg)](https://www.npmjs.com/package/stylelint-config-arenanet)
 ===========
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/arenanet/stylelint-config-arenanet.svg)](https://greenkeeper.io/)
 <p align="center">
     <a href="https://www.npmjs.com/package/stylelint-config-arenanet" alt="NPM License"><img src="https://img.shields.io/npm/l/stylelint-config-arenanet.svg" /></a>
     <a href="https://www.npmjs.com/package/stylelint-config-arenanet" alt="NPM Downloads"><img src="https://img.shields.io/npm/dm/stylelint-config-arenanet.svg" /></a>

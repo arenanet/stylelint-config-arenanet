@@ -15,11 +15,11 @@
   },
   "homepage": "https://github.com/arenanet/stylelint-config-arenanet#readme",
   "dependencies": {
-    "stylelint-config-standard": "^15.0.1"
+    "stylelint-config-standard": "^16.0.0"
   },
   "devDependencies": {
     "@studio/changes": "^1.1.0",
-    "husky": "^0.12.0",
+    "husky": "^0.13.1",
     "validate-commit-msg": "^2.8.2"
   },
   "scripts": {

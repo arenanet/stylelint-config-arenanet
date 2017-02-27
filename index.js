@@ -10,7 +10,7 @@ module.exports = {
             "always",
             {
                 "except": "first-nested",
-                "ignore": "blockless-group"
+                "ignore": "blockless-after-blockless"
             }
         ],
         "property-no-unknown": [
@@ -22,11 +22,22 @@ module.exports = {
             }
         ],
         "comment-empty-line-before": null,
-        "rule-nested-empty-line-before": null,
         "no-eol-whitespace": [
             true,
             {
                 "ignore": "empty-lines"
+            }
+        ],
+        "rule-empty-line-before": [
+            "always",
+            {
+                "ignore": [
+                    "after-comment",
+                    "inside-block"
+                ],
+                "except": [
+                    "first-nested"
+                ]
             }
         ],
         "selector-pseudo-class-no-unknown": [
